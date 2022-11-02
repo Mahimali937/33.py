@@ -1,0 +1,12 @@
+#Name:Mahim Ali
+#Email:mahim.ali32@myhunter.cuny.edu
+#Date:November 2,2022
+#This program counts occurence of a letter
+
+def main():
+    string = input("Enter a string: ")
+    char = input("Enter a char: ")
+    count = string.count(char)
+    print ("number of", char, "in", string, "is", count)
+
+main()
